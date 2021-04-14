@@ -1,0 +1,25 @@
+
+
+body {
+  height: 100%;
+  background-image:radial-gradient(circle, rgba(255,255,255,0.40) 0%, rgba(255,255,255,0.40) 49%, rgba(191,124,3,0.53) 100%),  url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/70df9491-e338-4869-8d13-06bb1fa30522/d7iwvfi-0e74ab7f-c86c-4edf-b3fc-2268615cb0be.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNzBkZjk0OTEtZTMzOC00ODY5LThkMTMtMDZiYjFmYTMwNTIyXC9kN2l3dmZpLTBlNzRhYjdmLWM4NmMtNGVkZi1iM2ZjLTIyNjg2MTVjYjBiZS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.szJVV9PQ5QY_OF7eayaMDvDDLmPAE5BUV1KVIVCcFiE');
+  font-family: 'Schoolbell', cursive;
+}
+
+
+nav {
+  align-items: center;
+  background-image: linear-gradient(0deg, rgba(255,255,255,0.02) 0%, rgba(195,167,114,0.73) 100%);
+  display: flex;
+  height: 80px;
+  padding: 10px;
+  padding-top: 25px;
+  justify-content: space-around;
+  align-content: center; 
+}
+
+.nav-link{
+  font-size: 30px;
+  text-shadow: 2px 2px #ffad18, 2px 2px #ffad18, 2px 2px #ffad18;
+  color: #997c47;
+}
