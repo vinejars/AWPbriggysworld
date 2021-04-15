@@ -3,13 +3,17 @@ import './index.css';
 import {motion} from 'framer-motion'
 
 function FancyFeast() {
+
+  
+
   return (
     <motion.div 
     initial={{opacity: 0, x: 300}} 
     animate={{opacity: 1, x: 0}} 
     transition={{duration: 1}} >
 
-   <motion.img  animate={{ opacity: 1 }}
+   <motion.img 
+   animate={{ opacity: 1 }}
    initial={{opacity: 0}}
       transition={{ duration: 1 }}
       whileHover={{ scale: 1.2 }}

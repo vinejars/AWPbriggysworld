@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './index.css';
 import {motion} from 'framer-motion'
 
 function App() {
+
   return (
     <motion.div 
     initial={{opacity: 0, x: 300}} 
@@ -10,7 +10,11 @@ function App() {
     transition={{duration: 1}} 
     className="App">
 
-   <img src='http://www.image.farm/images/2021/03/31/fa453a5fb0e5b1f1f44aa8094be12056.png'  className='brigpic'/>
+   <motion.img 
+  drag
+  dragTransition={{ bounceStiffness: 600, bounceDamping: 10 }}
+   src='http://www.image.farm/images/2021/04/15/f81bd1512f843b9c3546dec625ae5ba6.png'  
+   className='brigpic'/>
     
     </motion.div>
   );
